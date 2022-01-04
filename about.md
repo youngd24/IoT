@@ -16,3 +16,11 @@ I write to it, seemingly can never remember (read) from it while my team can, ev
 you can run code from it if you can find it. setuid/setgid is not set on it nor do I know what
 the umask really is.
 
+### Why DY?
+
+They're my initials, duh. But in reality I worked with someone years back, and for quite some time,
+that called me that, it took and everyone else adopted it, no idea why.
+
+```
+"Yo, DY, where's that Disksuite installer at?"
+```
