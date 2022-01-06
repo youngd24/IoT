@@ -1,6 +1,5 @@
 ---
 title: Home Page
-layout: default
 ---
 
 ## DY's Ramblings on IoT
