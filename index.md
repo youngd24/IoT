@@ -2,6 +2,8 @@
 title: Home Page
 ---
 
+{% include navigation.html %}
+
 ## DY's Ramblings on IoT
 
 For the last number of years I watched others dabble in the "Internet of Things" (IoT) area,
