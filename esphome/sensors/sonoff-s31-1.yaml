@@ -6,13 +6,13 @@ substitutions:
   devicename: Sonoff S31 Lab Test Unit
 
 wifi:
-  ssid: protected
-  password: P0pC0rnButt3r
+  ssid: "%WIFI_SSID%"
+  password: "%WIFI_PASSWORD%"
   
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
     ssid: "${plugtag} Fallback Hotspot"
-    password: "WZO3n27xhFev"
+    password: "%AP_PASSWORD%"
 
 # Enable captive portal if wifi ever changes
 captive_portal:
@@ -22,7 +22,8 @@ api:
   # password: !secret api_password
 
 ota:
-  password: "6fd9b4c5093997a61ab120dca7a6033c"
+    #  password: "6fd9b4c5093997a61ab120dca7a6033c"
+    password: "%OTA_PASSWORD%"
   
 esphome:
   name: ${plugtag}
