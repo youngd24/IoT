@@ -15,17 +15,16 @@ logger:
 api:
 
 ota:
-  password: "%OTA_PASSWORD%"
+  password: !secret ota_password
 
 wifi:
-    #ssid: !secret wifi_ssid
-    #password: !secret wifi_password
-    ssid: "%WIFI_SSID%"
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
 
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
-    ssid: "Lab-Nodemcu-8266"
-    password: "%AP_PASSWORD%"
+    ssid: ${devicename}
+    password: !secret ap_password
 
 captive_portal:
 
