@@ -1,5 +1,5 @@
 ---
-title: Home Page
+title: The IoT Ramblings of DY
 ---
 
 {% include navigation.html %}
