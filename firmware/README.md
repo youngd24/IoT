@@ -1,5 +1,7 @@
 # Firmware
 
+Most of what's in here is for Espressif ESP devices as that's what I generally use.
+
 ## For 1M Flash
 
 ### Backup Firmware
