@@ -1,8 +1,9 @@
 ################################################################################
 #
-# basement-heater-sonoff-s31
+# basement-heater-sonoff-s31.yaml
 #
-# Configuration for a Sonoff S31 smart switch
+# Configuration for a Sonoff S31 smart switch. This switch requires calibration
+# from what I can tell, more to come on that as I figure it out.
 #
 ################################################################################
 
